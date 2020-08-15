@@ -2,6 +2,69 @@
 
 .app {
   width: 600px;
+  height: 700px;
   margin: 80px auto $base-margin auto;
   background-color: $white;
+}
+
+.Header {
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  background-color: #00f;
+}
+.Header h1 {
+  display: inline-block;
+}
+.Header img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 40px;
+}
+.Header p {
+  position: absolute;
+  width: 20px;
+  height: 15px;
+  line-height: 15px;
+  text-align: center;
+  font-style: italic;
+  font-size: 12px;
+  color: #fff;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 18px;
+  background-color: #f00;
+  border-radius: 40%;
+}
+
+.Goods {
+  padding: 0 15px;
+}
+.Goods img {
+  width: 160px;
+  height: 160px;
+}
+
+.phone {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.phone .title{
+  margin: 15px auto;
+  font-weight: bold;
+}
+.phone .price {
+  display: inline-block;
+}
+.phone .addToCart {
+  display: inline-block;
+  text-align: center;
+  width: 93px;
+  height: 25px;
+  line-height: 25px;
+  margin-left: 15px;
+  color: #fff;
+  background-color: #00f;
 }
